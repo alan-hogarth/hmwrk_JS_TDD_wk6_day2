@@ -1,7 +1,6 @@
-const Room = function(area, isPainted=false, allowPaint){
+const Room = function(area, isPainted=false){
     this.area = area;
     this.isPainted = isPainted;
-    this.allowPaint = allowPaint;
 };
 
 
